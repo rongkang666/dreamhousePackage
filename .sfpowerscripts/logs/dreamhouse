@@ -1,0 +1,28 @@
+sfpowerscripts--log
+Package Directory  :  "force-app" 
+Fetching Package Type Info from DevHub
+-------------------------
+Package  :  "dreamhouse" 
+IsOrgDependent
+Package Id  :  "0Ho2w000000k9zQCAQ" 
+-------------------------
+Resolving project dependencies
+Resolved Depenendecies  :  "\nNo dependencies found for package directory force-app\n" 
+Package Creation Command  :  "npx sfdx force:package:version:create -p dreamhouse  -w 120 --definitionfile config/project-scratch-def.json --json -x -v kang.rong@creative-narwhal-3s6bzu.com" 
+{
+  "status": 0,
+  "result": {
+    "Id": "08c2w000000kAHsAAM",
+    "Status": "Success",
+    "Package2Id": "0Ho2w000000k9zQCAQ",
+    "Package2VersionId": "05i2w000000kA9tAAE",
+    "SubscriberPackageVersionId": "04t2w000009F5bxAAC",
+    "Tag": null,
+    "Branch": null,
+    "Error": [],
+    "CreatedDate": "2020-12-18 17:02"
+  }
+}
+
+Fetching Version Number and Coverage details
+Package Info Fetched  :  "{\n  \"status\": 0,\n  \"result\": [\n    {\n      \"HasPassedCodeCoverageCheck\": false,\n      \"coverage\": 0,\n      \"packageId\": \"0Ho2w000000k9zQCAQ\",\n      \"packageName\": \"dreamhouse\",\n      \"packageVersionId\": \"04t2w000009F5bxAAC\",\n      \"packageVersionNumber\": \"3.0.0.6\"\n    }\n  ]\n}\n" 
